@@ -32,7 +32,7 @@ public class ExtentReportNG implements ITestListener {
 	//UI of the report
 	sparkReporter=new ExtentSparkReporter(".\\reports\\"+reportName );  //location of the report
 	// title of the report
-	//sparkReporter.config().setDocumentTitle("Codenbox Automation Report");
+	//sparkReporter.config().setDocumentTitle("Project Automation Report");
 	//name of the report 
 	sparkReporter.config().setReportName("Lattice Web Test Summary");
 	sparkReporter.config().setTheme(Theme.DARK); //select UI look or theme type
@@ -110,7 +110,7 @@ public class ExtentReportNG implements ITestListener {
 	  
 	@Override  
 	public void onFinish(ITestContext context) {  
-		extent.flush();
+		extent.flush(); //used to generate/compile the report
 		
 		// auto open the generated report
 		String reportPath=System.getProperty("user.dir")+"\\reports\\"+reportName;

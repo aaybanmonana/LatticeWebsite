@@ -13,3 +13,24 @@
 2025-04-29 09:29:21.965 [main] INFO  TestBase.Base - **********Click on Sign In**********
 2025-04-29 09:29:24.724 [main] INFO  TestBase.Base - **********Account credentials**********
 2025-04-29 09:29:26.896 [main] INFO  TestBase.Base - **********Verifying Account**********
+2025-04-29 11:35:58.074 [main] INFO  TestBase.Base - **********Starting Data Driven Test***********
+2025-04-29 11:36:00.256 [main] INFO  TestBase.Base - **********Test for Invalid Credentials***********
+2025-04-29 11:36:00.322 [main] INFO  TestBase.Base - Wrong email or password.
+2025-04-29 11:36:10.929 [main] INFO  TestBase.Base - **********Starting Data Driven Test***********
+2025-04-29 11:36:12.745 [main] INFO  TestBase.Base - **********Test for Invalid Credentials***********
+2025-04-29 11:36:12.800 [main] INFO  TestBase.Base - Wrong email or password.
+2025-04-29 11:36:21.855 [main] INFO  TestBase.Base - **********Starting Data Driven Test***********
+2025-04-29 11:36:24.013 [main] INFO  TestBase.Base - **********Test for Invalid Credentials***********
+2025-04-29 11:36:24.072 [main] INFO  TestBase.Base - Wrong email or password.
+2025-04-29 11:36:33.631 [main] INFO  TestBase.Base - **********Starting Data Driven Test***********
+2025-04-29 11:36:36.590 [main] INFO  TestBase.Base - **********Test for Invalid Credentials***********
+2025-04-29 11:36:36.695 [main] INFO  TestBase.Base - Wrong email or password.
+2025-04-29 11:36:45.501 [main] INFO  TestBase.Base - **********Starting Data Driven Test***********
+2025-04-29 11:36:49.082 [main] INFO  TestBase.Base - **********Test for Invalid Credentials***********
+2025-04-29 11:36:49.082 [main] INFO  TestBase.Base - **********Test for Valid Credentials***********
+2025-04-29 11:36:49.151 [main] INFO  TestBase.Base - **********Validation Finished***********
+2025-04-29 14:23:11.589 [main] INFO  TestBase.Base - **********License Generation Test Started**********
+2025-04-29 14:23:14.260 [main] INFO  TestBase.Base - **********Click on Sign In**********
+2025-04-29 14:23:24.706 [main] INFO  TestBase.Base - **********Click on Generate License**********
+2025-04-29 14:23:32.038 [main] INFO  TestBase.Base - License Generated
+2025-04-29 14:23:32.039 [main] INFO  TestBase.Base - **********License Generation Test Finished**********

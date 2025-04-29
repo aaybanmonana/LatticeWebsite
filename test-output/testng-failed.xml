@@ -7,13 +7,12 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestCases.AccountLogin">
+      <class name="TestCases.PropelLicenseDL">
         <methods>
-          <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verify_login"/>
+          <include name="checkPropelLicense"/>
         </methods>
-      </class> <!-- TestCases.AccountLogin -->
+      </class> <!-- TestCases.PropelLicenseDL -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

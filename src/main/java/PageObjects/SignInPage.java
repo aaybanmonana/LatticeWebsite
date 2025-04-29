@@ -22,6 +22,12 @@ public class SignInPage extends BaseConstructor {
 	@FindBy(xpath = "//input[@type='button']")
 	WebElement signinBtn;
 	
+	@FindBy(xpath = "//span[@id='body_0_content_0_MessageLbl']")
+	WebElement signinMsg;
+	
+	@FindBy(linkText = "Software Licensing")
+	WebElement swLic;
+	
 	//create actions methods
 	
 	public void setEmail(String Email) {
@@ -34,5 +40,14 @@ public class SignInPage extends BaseConstructor {
 	
 	public void clickSignIn() {
 		signinBtn.click();
+	}
+	
+	public String getSignInMessage() {
+		String message = signinMsg.getText();
+		return message;
+	}
+	
+	public void clickSWLic() {
+		swLic.click();
 	}
 }
